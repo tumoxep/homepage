@@ -1,0 +1,48 @@
+h1 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.skills {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.skills-2 {
+  font-size: .8em;
+}
+
+.skills-3 {
+  font-size: .7em;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.cv-link {
+  font-size: .7em;
+  font-weight: bold;
+  padding: 20px 40px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: .7em;
+  padding: 20px 0;
+}

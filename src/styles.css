@@ -1,0 +1,31 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+body {
+  background-color: #222831;
+  color: #EEEEEE;
+}
+
+a {
+  color: #EEEEEE;
+}
+
+a:hover {
+  color: #D65A31;
+}
+
+a.active {
+  pointer-events: none;
+  color: #393E46;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,17 @@
+<div class="container">
+  <mat-card *ngFor="let item of projects" class="item-card">
+    <mat-card-title-group>
+      <mat-card-title>{{ item.title }}</mat-card-title>
+      <mat-card-subtitle>{{ getDate(item) }} • {{ item.tags }} </mat-card-subtitle>
+      <img mat-card-sm-image [src]="getImage(item)" />
+    </mat-card-title-group>
+    <mat-card-content>
+      <p>{{ getDescription(item) }}</p>
+    </mat-card-content>
+    <mat-card-actions align="end">
+      <a target="_blank" [href]="item.external_url" mat-stroked-button>
+        <mat-icon svgIcon="open-in-new" aria-hidden="false" aria-label=""></mat-icon>
+      </a>
+    </mat-card-actions>
+  </mat-card>
+</div>
